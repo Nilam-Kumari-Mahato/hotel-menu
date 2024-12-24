@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+main{
+    padding: 4%;
+}
+
+nav{
+    padding:0;
+    font-family: monospace;
+    position: sticky;
+}
+nav{
+    top:0;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+li input{
+    width: 105%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav li{
+    display: inline-block;
+    font-size: clamp(10px,5vw,20px);
+    padding:1%;
+    padding-left:0.5%;
+}
+.head{
+    font-size:clamp(1rem, 5vw, 3rem);
+    font-family: cursive;
+    color: rgb(253, 2, 2);
+    background-image: url("https://files.oaiusercontent.com/file-D4AzNFvU3Mbt49LXfQwkNX?se=2024-12-19T15%3A06%3A58Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Ddebc2ac7-325c-4f57-bd89-8346a202db89.webp&sig=eLaz/GaNOsdp9g1FuSoZyL5enQTStjll6E8IYUpyNLw%3D");
+    background-size: cover;
+    height: 40vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-content: center;
+    text-shadow: 0 6px 4px black ;
+}
+.head p{
+    font-size: 30px;
+    color: rgb(218, 250, 13);
+}
+h2{
+    width: 100%;
+    font-size: 3rem;
+    color: rgb(252, 68, 2);
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+.grid-item{
+    background-color: #fff;
+    border: 1px sodid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgba(0,0,0,0.1);
+    padding: 10px;
+    text-align: center;
+}
+.grid-item p{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color:dimgrey;
+}
+.grid-item button{
+    font-size:20px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    background-color: bisque;
+    padding: 5px ;
+    border-radius: 2%;
+}
+.grid-item button:hover{
+    background-color: rgba(235, 173, 173, 0.553);
+}
+.list{
+    padding:10px;
+    background-color: crimson;
+    color: gold;
+    font-size: 30px;
+    border-radius: 2%;
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+p{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+#addtolist{
+    font-size: 2rem;
+    padding-left: 20px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+footer p{
+    font-family: cursive;
+    font-size: 100%;
+    color:lightskyblue;
+    text-align: center;
+    background-color: #000;
+
+}
+footer{
+    position: sticky;
+    bottom: 0;
+}
